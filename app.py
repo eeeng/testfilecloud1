@@ -1,7 +1,6 @@
 from flask import Flask, Response, jsonify, render_template, logging, request
 
 app = Flask(__name__)
-
 @app.route('/')
 
 def home():
